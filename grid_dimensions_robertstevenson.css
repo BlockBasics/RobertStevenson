@@ -1,6 +1,11 @@
 main{
 	min-height:100vh;
 }
+
+.bx-wrapper, .s-wrapper {
+	overflow: auto; /*pp*/
+}
+
 .bx-wrapper{
 	min-height:3em;
 }
@@ -12,13 +17,10 @@ main{
 	/* zero */
 	padding:0;
 
-	width:80%;
-	padding-bottom:80%;
+	width:69%; /*pp*/
+	padding-bottom:69%; /*pp*/
 	margin:0 auto;
 	
-}
-.s3 .bx-wraper{
-	overflow:auto;
 }
 .s3 figure{
 	/* zero */
@@ -26,7 +28,7 @@ main{
 
 	width:20%;
 	padding-bottom:20%;
-	margin:2%;
 	float:left;
+	
 }
 

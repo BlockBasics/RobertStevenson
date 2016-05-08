@@ -1,3 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Oswald&subset=latin-ext);
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .bx-wrapper{
 	outline:red solid 1px;
 }
@@ -14,4 +28,44 @@
 
 .s3 figure{
 	background-color:blue;
+}
+
+.s1, 
+.s2, 
+.s3, 
+.s4, 
+.s5 {
+  background-color: #6d6d6d;
+}
+
+.s1 h2, 
+.s2 h2, 
+.s3 h2, 
+.s4 h2, 
+.s5 h2 {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+
+.s1 p, 
+.s2 p, 
+.s3 p, 
+.s4 p, 
+.s5 p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.s1, 
+.s2, 
+.s3, 
+.s4, 
+.s5,
+.s6,
+.s7 {
+  padding: 10px;
+}
+
+.s6 h2 {
+  font-family: 'Oswald', sans-serif;
 }
