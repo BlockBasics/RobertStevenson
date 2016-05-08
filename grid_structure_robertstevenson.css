@@ -1,0 +1,20 @@
+section, .s-wrapper{		
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: center;
+	flex: 0 0 100%;
+}
+.bx-wrapper{
+	flex: 0 0 80%;
+}	
+/* display desktop */
+.s5{
+	flex:0 0 30%;
+}	
+.s6{
+	flex:0 0 50%;
+}
+.s5 .bx-wrapper, .s6 .bx-wrapper{
+	flex: none;
+	width:100%;
+}

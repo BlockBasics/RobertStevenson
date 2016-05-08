@@ -1,0 +1,32 @@
+main{
+	min-height:100vh;
+}
+.bx-wrapper{
+	min-height:3em;
+}
+
+.s1{
+	text-align: center;
+}
+.s1 figure{
+	/* zero */
+	padding:0;
+
+	width:80%;
+	padding-bottom:80%;
+	margin:0 auto;
+	
+}
+.s3 .bx-wraper{
+	overflow:auto;
+}
+.s3 figure{
+	/* zero */
+	padding:0;
+
+	width:20%;
+	padding-bottom:20%;
+	margin:2%;
+	float:left;
+}
+

@@ -1,0 +1,17 @@
+.bx-wrapper{
+	outline:red solid 1px;
+}
+.s1, .s2{
+	background-color: #eee;
+}
+.s7{
+	background-color: #666;
+}
+/* glogal for blocks */
+.s1 figure{
+	background-color:red;
+}
+
+.s3 figure{
+	background-color:blue;
+}
